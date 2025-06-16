@@ -1,0 +1,66 @@
+{
+    "geode": "4.5.0",
+    "gd": {
+        "win": "2.2074",
+        "android": "2.2074",
+        "mac": "2.2074",
+        "ios": "2.2074"
+    },
+    "version": "v1.0.0",
+    "id": "cgytrus.random-patches",
+    "name": "ConfiG's Random Patches",
+    "developer": "ConfiG",
+    "description": "A collection of small patches not worthy of putting in separate mods",
+    "early-load": true,
+    "dependencies": {
+        "geode.custom-keybinds": ">=v1.10.4"
+    },
+    "settings": {
+        "flipped-particles-fix": {
+            "name": "Flipped Particles Fix",
+            "description": "Fixes some particles not being flipped correctly in reverse gravity",
+            "type": "bool",
+            "default": true
+        },
+        "global-ship-drag-particles": {
+            "name": "Global Ship Drag Particles",
+            "description": "Makes ship drag particles global",
+            "type": "bool",
+            "default": true
+        },
+        "wave-trail-on-death": {
+            "name": "Wave Trail on Death",
+            "description": "i added this before we had megahack v8",
+            "type": "bool",
+            "default": false
+        },
+        "custom-percent-decimal": {
+            "name": "Custom Percent Decimal",
+            "description": "Change the amount of decimal places displayed with decimal percent on",
+            "type": "int",
+            "default": 1,
+            "min": 1,
+            "max": 9,
+            "control": {
+                "arrows": true,
+                "arrow-step": 1,
+                "big-arrows": false,
+                "slider": false,
+                "input": true
+            },
+            "requires-restart": true
+        },
+        "title-windows-only": {
+            "name": "Windows Only",
+            "description": "i didnt care enough to implement these on other platforms",
+            "type": "title"
+        },
+        "optimized-grid": {
+            "name": "Optimized Grid",
+            "description": "Optimizes grid rendering and removes grid lines limit",
+            "type": "bool",
+            "default": true,
+            "requires-restart": true
+        }
+    }
+}
