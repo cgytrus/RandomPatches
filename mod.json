@@ -53,6 +53,13 @@
             },
             "requires-restart": true
         },
+        "dash-particles-offset-fix": {
+            "name": "Dash Particles Offset Fix",
+            "description": "Fixes dash orb particles being incorrectly offset",
+            "type": "bool",
+            "default": true,
+            "requires-restart": true
+        },
         "title-windows-only": {
             "name": "Windows Only",
             "description": "i didnt care enough to implement these on other platforms",

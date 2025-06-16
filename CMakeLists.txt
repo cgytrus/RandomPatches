@@ -23,6 +23,7 @@ set(SOURCES
     src/portable/global-ship-drag-particles.cpp
     src/portable/wave-trail-on-death.cpp
     src/custom-percent-decimal.cpp
+    src/portable/dash-particles-offset-fix.cpp
 )
 if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
     set(SOURCES ${SOURCES}
