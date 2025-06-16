@@ -10,22 +10,6 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 
 project(RandomPatches VERSION 1.0.0)
 
-set(SOURCES
-    src/portable/flipped-particles-fix.cpp
-    src/portable/global-ship-drag-particles.cpp
-    src/portable/wave-trail-on-death.cpp
-    src/portable/options-keybind.cpp
-    src/custom-percent-decimal.cpp
-)
-if (WIN32)
-    set(SOURCES ${SOURCES}
-#        src/background-on-unfocus.cpp
-        src/optimized-grid.cpp
-    )
-endif ()
-
-add_library(${PROJECT_NAME} SHARED ${SOURCES})
-
 if (NOT DEFINED ENV{GEODE_SDK})
     message(FATAL_ERROR "Unable to find Geode SDK! Please define GEODE_SDK environment variable to point to Geode")
 else()
@@ -33,6 +17,37 @@ else()
 endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
+
+set(SOURCES
+    src/portable/flipped-particles-fix.cpp
+    src/portable/global-ship-drag-particles.cpp
+    src/portable/wave-trail-on-death.cpp
+    src/custom-percent-decimal.cpp
+)
+if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
+    set(SOURCES ${SOURCES}
+        src/portable/options-keybind.cpp
+#        src/background-on-unfocus.cpp
+        src/optimized-grid.cpp
+    )
+elseif (GEODE_TARGET_PLATFORM STREQUAL "Android32")
+    set(SOURCES ${SOURCES}
+        src/portable/options-keybind.cpp
+    )
+elseif (GEODE_TARGET_PLATFORM STREQUAL "Android64")
+    set(SOURCES ${SOURCES}
+        src/portable/options-keybind.cpp
+    )
+elseif (GEODE_TARGET_PLATFORM STREQUAL "MacOS")
+    set(SOURCES ${SOURCES}
+        src/portable/options-keybind.cpp
+    )
+elseif (GEODE_TARGET_PLATFORM STREQUAL "iOS")
+    set(SOURCES ${SOURCES}
+    )
+endif ()
+
+add_library(${PROJECT_NAME} SHARED ${SOURCES})
 
 CPMAddPackage("gh:prevter/sinaps#eba7941")
 target_link_libraries(${PROJECT_NAME} sinaps)

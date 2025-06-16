@@ -13,7 +13,10 @@
     "description": "A collection of small patches not worthy of putting in separate mods",
     "early-load": true,
     "dependencies": {
-        "geode.custom-keybinds": ">=v1.10.4"
+        "geode.custom-keybinds": {
+            "version": ">=v1.10.4",
+            "platforms": ["win", "android", "mac"]
+        }
     },
     "settings": {
         "flipped-particles-fix": {
