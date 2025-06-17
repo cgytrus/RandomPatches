@@ -91,6 +91,12 @@
             "type": "bool",
             "default": true
         },
+        "icon-explosion-without-explosion": {
+            "name": "Icon Explosion Without Explosion",
+            "description": "Removes any forces from the icon explosion effect so it just falls apart on death",
+            "type": "bool",
+            "default": false
+        },
         "title-windows-only": {
             "name": "Windows Only",
             "description": "i didnt care enough to implement these on other platforms",

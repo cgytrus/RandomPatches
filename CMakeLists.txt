@@ -29,6 +29,7 @@ set(SOURCES
     src/portable/show-trigger-wave-particles-fix.cpp
     src/portable/logarithmic-volume-sliders.cpp
     src/portable/practice-music-sync-pulse-fix.cpp
+    src/portable/icon-explosion-without-explosion.cpp
 )
 if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
     set(SOURCES ${SOURCES}
