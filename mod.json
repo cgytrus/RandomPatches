@@ -62,7 +62,13 @@
         },
         "robot-spider-extra-parenting-fix": {
             "name": "Robot/Spider Extra Parenting Fix",
-            "description": "Fixes the \"extra\" sprite of robot and spider sometimes getting parented to the wrong part of the icon. The same bug can apparently also cause a crash sometimes?",
+            "description": "Fixes the \"extra\" sprite of robot and spider sometimes getting parented to the wrong part of the icon",
+            "type": "bool",
+            "default": true
+        },
+        "swing-default-mini-icon-fix": {
+            "name": "Swing Default Mini Icon Fix",
+            "description": "Fixes the swing icon getting replaced by the cube icon when switching to mini on swing with default mini icon on",
             "type": "bool",
             "default": true
         },
