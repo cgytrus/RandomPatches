@@ -72,6 +72,12 @@
             "type": "bool",
             "default": true
         },
+        "show-trigger-wave-particles-fix": {
+            "name": "Show Trigger Wave Particles Fix",
+            "description": "Fixes wave showing ship/ufo fire particles after hiding and showing the icon with hide/show triggers",
+            "type": "bool",
+            "default": true
+        },
         "title-windows-only": {
             "name": "Windows Only",
             "description": "i didnt care enough to implement these on other platforms",

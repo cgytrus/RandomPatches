@@ -26,6 +26,7 @@ set(SOURCES
     src/portable/dash-particles-offset-fix.cpp
     src/portable/robot-spider-extra-parenting-fix.cpp
     src/portable/swing-default-mini-icon-fix.cpp
+    src/portable/show-trigger-wave-particles-fix.cpp
 )
 if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
     set(SOURCES ${SOURCES}
