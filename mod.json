@@ -60,6 +60,12 @@
             "default": true,
             "requires-restart": true
         },
+        "robot-spider-extra-parenting-fix": {
+            "name": "Robot/Spider Extra Parenting Fix",
+            "description": "Fixes the \"extra\" sprite of robot and spider sometimes getting parented to the wrong part of the icon. The same bug can apparently also cause a crash sometimes?",
+            "type": "bool",
+            "default": true
+        },
         "title-windows-only": {
             "name": "Windows Only",
             "description": "i didnt care enough to implement these on other platforms",
