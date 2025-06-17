@@ -3,7 +3,6 @@
 using namespace geode::prelude;
 
 #include <Geode/modify/GJRobotSprite.hpp>
-#include <utility>
 class $modify(GJRobotSprite) {
     // TODO: move to ctor when modify with it is fixed in geode
     $override bool init(int p0, std::string p1) {
