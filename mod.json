@@ -16,7 +16,8 @@
         "geode.custom-keybinds": {
             "version": ">=v1.10.4",
             "platforms": ["win", "android", "mac"]
-        }
+        },
+        "geode.node-ids": ">=v1.20.1"
     },
     "settings": {
         "flipped-particles-fix": {
@@ -75,6 +76,12 @@
         "show-trigger-wave-particles-fix": {
             "name": "Show Trigger Wave Particles Fix",
             "description": "Fixes wave showing ship/ufo fire particles after hiding and showing the icon with hide/show triggers",
+            "type": "bool",
+            "default": true
+        },
+        "logarithmic-volume-sliders": {
+            "name": "Logarithmic Volume Sliders",
+            "description": "Puts the volume sliders on a logarithmic scale to more accurately reflect perceived loudness. Also removes the 0.03 volume snap",
             "type": "bool",
             "default": true
         },
