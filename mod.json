@@ -85,6 +85,12 @@
             "type": "bool",
             "default": true
         },
+        "practice-music-sync-pulse-fix": {
+            "name": "Practice Music Sync Pulse Fix",
+            "description": "Fixes practice music sync breaking pulsing (RobTop only half-implemented it so this finishes the implementation to make it actually work)",
+            "type": "bool",
+            "default": true
+        },
         "title-windows-only": {
             "name": "Windows Only",
             "description": "i didnt care enough to implement these on other platforms",
