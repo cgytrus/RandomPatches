@@ -1,5 +1,5 @@
 {
-    "geode": "4.5.0",
+    "geode": "4.7.0",
     "gd": {
         "win": "2.2074",
         "android": "2.2074",
@@ -22,15 +22,15 @@
     "settings": {
         "flipped-particles-fix": {
             "name": "Flipped Particles Fix",
-            "description": "Fixes some particles not being flipped correctly in reverse gravity",
+            "description": "removed for now\nFixes some particles not being flipped correctly in reverse gravity",
             "type": "bool",
-            "default": true
+            "default": false
         },
         "global-ship-drag-particles": {
             "name": "Global Ship Drag Particles",
-            "description": "Makes ship drag particles global",
+            "description": "removed for now\nMakes ship drag particles global",
             "type": "bool",
-            "default": true
+            "default": false
         },
         "wave-trail-on-death": {
             "name": "Wave Trail on Death",
@@ -54,40 +54,15 @@
             },
             "requires-restart": true
         },
-        "dash-particles-offset-fix": {
-            "name": "Dash Particles Offset Fix",
-            "description": "Fixes dash orb particles being incorrectly offset",
-            "type": "bool",
-            "default": true,
-            "requires-restart": true
-        },
-        "robot-spider-extra-parenting-fix": {
-            "name": "Robot/Spider Extra Parenting Fix",
-            "description": "Fixes the \"extra\" sprite of robot and spider sometimes getting parented to the wrong part of the icon",
-            "type": "bool",
-            "default": true
-        },
         "swing-default-mini-icon-fix": {
             "name": "Swing Default Mini Icon Fix",
-            "description": "Fixes the swing icon getting replaced by the cube icon when switching to mini on swing with default mini icon on",
+            "description": "in misc bugfixes now but im keeping it\nFixes the swing icon getting replaced by the cube icon when switching to mini on swing with default mini icon on",
             "type": "bool",
-            "default": true
-        },
-        "show-trigger-wave-particles-fix": {
-            "name": "Show Trigger Wave Particles Fix",
-            "description": "Fixes wave showing ship/ufo fire particles after hiding and showing the icon with hide/show triggers",
-            "type": "bool",
-            "default": true
+            "default": false
         },
         "logarithmic-volume-sliders": {
             "name": "Logarithmic Volume Sliders",
             "description": "Puts the volume sliders on a logarithmic scale to more accurately reflect perceived loudness. Also removes the 0.03 volume snap",
-            "type": "bool",
-            "default": true
-        },
-        "practice-music-sync-pulse-fix": {
-            "name": "Practice Music Sync Pulse Fix",
-            "description": "Fixes practice music sync breaking pulsing (RobTop only half-implemented it so this finishes the implementation to make it actually work)",
             "type": "bool",
             "default": true
         },

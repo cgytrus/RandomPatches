@@ -19,16 +19,12 @@ endif()
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
 set(SOURCES
-    src/portable/flipped-particles-fix.cpp
-    src/portable/global-ship-drag-particles.cpp
+    #src/portable/flipped-particles-fix.cpp
+    #src/portable/global-ship-drag-particles.cpp
     src/portable/wave-trail-on-death.cpp
     src/custom-percent-decimal.cpp
-    src/portable/dash-particles-offset-fix.cpp
-    src/portable/robot-spider-extra-parenting-fix.cpp
     src/portable/swing-default-mini-icon-fix.cpp
-    src/portable/show-trigger-wave-particles-fix.cpp
     src/portable/logarithmic-volume-sliders.cpp
-    src/portable/practice-music-sync-pulse-fix.cpp
     src/portable/icon-explosion-without-explosion.cpp
 )
 if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
