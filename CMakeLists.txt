@@ -26,6 +26,7 @@ set(SOURCES
     src/portable/swing-default-mini-icon-fix.cpp
     src/portable/logarithmic-volume-sliders.cpp
     src/portable/icon-explosion-without-explosion.cpp
+    src/portable/drawnode-drawarea-fix.cpp
 )
 if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
     set(SOURCES ${SOURCES}
