@@ -31,7 +31,6 @@ if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
     set(SOURCES ${SOURCES}
         src/portable/options-keybind.cpp
 #        src/background-on-unfocus.cpp
-        src/optimized-grid.cpp
     )
 elseif (GEODE_TARGET_PLATFORM STREQUAL "Android32")
     set(SOURCES ${SOURCES}

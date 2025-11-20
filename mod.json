@@ -76,13 +76,6 @@
             "name": "Windows Only",
             "description": "i didnt care enough to implement these on other platforms",
             "type": "title"
-        },
-        "optimized-grid": {
-            "name": "Optimized Grid",
-            "description": "Optimizes grid rendering and removes grid lines limit",
-            "type": "bool",
-            "default": true,
-            "requires-restart": true
         }
     }
 }
