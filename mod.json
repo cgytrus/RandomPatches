@@ -6,11 +6,11 @@
         "mac": "2.2074",
         "ios": "2.2074"
     },
-    "version": "v1.0.0",
+    "version": "v0.1.0",
     "id": "cgytrus.random-patches",
     "name": "ConfiG's Random Patches",
     "developer": "ConfiG",
-    "description": "A collection of small patches not worthy of putting in separate mods",
+    "description": "My collection of small experimental mods/patches. Here be dragons!",
     "early-load": true,
     "dependencies": {
         "geode.custom-keybinds": {
