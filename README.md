@@ -3,9 +3,12 @@
 A collection of small tweaks and patches designed primarily for my own use or experimental things
 that are not stable or polished enough to become separate mods yet.
 
-Beware that anything here may change or get removed at any time and some things might be unstable
-or outright broken or disabled. You're welcome to report bugs,
+Beware that anything here may change or get removed at any time and some things might be disabled
+or unstable or outright broken. You're welcome to report bugs,
 but I cannot guarantee they will be fixed.
+
+This mod will (probably) never reach v1.x.x. If you install this, please
+check the changelog every update to see what was added, removed, changed or moved to separate mods.
 
 Everything is tweaked to myself by default so make sure to check the settings!
 
@@ -13,13 +16,13 @@ Everything is tweaked to myself by default so make sure to check the settings!
 not all of them are configurable
 
 some of these are bugfixes that i pr to misc bugfixes
-but since it takes a while for cvolton to review and merge the prs
-and release an update i put them here temporarily
+but since it takes a while for cvolton to review and merge the prs and release an update
+i put them here temporarily
 
-#### Flipped Particles Fix (broken, removed for now)
+#### ~~Flipped Particles Fix (broken, removed for now)~~
 Fixes some particles not being flipped correctly in reverse gravity
 
-#### Global Ship Drag Particles (broken, removed for now)
+#### ~~Global Ship Drag Particles (broken, removed for now)~~
 Makes ship drag particles global
 
 #### Wave Trail on Death
@@ -53,5 +56,5 @@ Adds a Custom Keybinds keybind that opens the vanilla options menu
 ### Windows Only
 i didnt care enough to implement these on other platforms
 
-#### Background on Unfocus (removed rn)
+#### ~~Background on Unfocus (removed rn)~~
 i dont remember what this was so i didnt update it to 2.2074 but if u know what it was for lmk lmao
