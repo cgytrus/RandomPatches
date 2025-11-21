@@ -27,6 +27,7 @@ set(SOURCES
     src/portable/logarithmic-volume-sliders.cpp
     src/portable/icon-explosion-without-explosion.cpp
     src/portable/drawnode-drawarea-fix.cpp
+    src/portable/dash-scale-fix.cpp
 )
 if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
     set(SOURCES ${SOURCES}
