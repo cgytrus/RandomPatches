@@ -1,10 +1,10 @@
 {
-    "geode": "4.10.0",
+    "geode": "5.9.0",
     "gd": {
-        "win": "2.2074",
-        "android": "2.2074",
-        "mac": "2.2074",
-        "ios": "2.2074"
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
     },
     "version": "v0.1.0",
     "id": "cgytrus.random-patches",
@@ -13,11 +13,7 @@
     "description": "My collection of small experimental mods/patches. Here be dragons!",
     "early-load": true,
     "dependencies": {
-        "geode.custom-keybinds": {
-            "version": ">=v1.10.4",
-            "platforms": ["win", "android", "mac"]
-        },
-        "geode.node-ids": ">=v1.20.1"
+        "geode.node-ids": ">=v1.23.3"
     },
     "settings": {
         "flipped-particles-fix": {
@@ -71,6 +67,13 @@
             "description": "Removes any forces from the icon explosion effect so it just falls apart on death",
             "type": "bool",
             "default": false
+        },
+        "options-keybind": {
+            "name": "Options Keybind",
+            "description": "Opens the options menu",
+            "type": "keybind",
+            "default": "F2",
+            "category": "universal"
         },
         "title-windows-only": {
             "name": "Windows Only",

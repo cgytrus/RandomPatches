@@ -28,23 +28,20 @@ set(SOURCES
     src/portable/icon-explosion-without-explosion.cpp
     src/portable/drawnode-drawarea-fix.cpp
     src/portable/dash-scale-fix.cpp
+    src/portable/options-keybind.cpp
 )
 if (GEODE_TARGET_PLATFORM STREQUAL "Win64")
     set(SOURCES ${SOURCES}
-        src/portable/options-keybind.cpp
 #        src/background-on-unfocus.cpp
     )
 elseif (GEODE_TARGET_PLATFORM STREQUAL "Android32")
     set(SOURCES ${SOURCES}
-        src/portable/options-keybind.cpp
     )
 elseif (GEODE_TARGET_PLATFORM STREQUAL "Android64")
     set(SOURCES ${SOURCES}
-        src/portable/options-keybind.cpp
     )
 elseif (GEODE_TARGET_PLATFORM STREQUAL "MacOS")
     set(SOURCES ${SOURCES}
-        src/portable/options-keybind.cpp
     )
 elseif (GEODE_TARGET_PLATFORM STREQUAL "iOS")
     set(SOURCES ${SOURCES}
